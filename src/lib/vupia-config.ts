@@ -14,7 +14,8 @@ const buildWaUrl = (message: string) =>
 
 export const vupiaConfig = {
   videoPoster: "", // URL opcional da capa; vazio usa a capa padrão.
-  checkoutUrl: "https://go.vupia.store/PPU38CQGJPS", // Link do checkout.
+  // checkoutUrl: "https://go.vupia.store/PPU38CQGJPS", // Link do checkout.
+  checkoutUrl: "https://app.vupia.com.br/register", // Link do checkout.
   termsUrl: "/termos",
   privacyUrl: "/privacidade",
   campaignRulesUrl: "/regras-vale-bonus",

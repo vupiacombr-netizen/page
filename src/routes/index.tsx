@@ -728,7 +728,7 @@ function Offer() {
 
             <div className="mt-5 text-center">
               <div className="mb-3 flex items-center justify-center gap-3">
-<span className="text-[15px] font-semibold text-offer-card-sub sm:text-base">De <span className="line-through">R$ 545</span> por</span>
+                <span className="text-[15px] font-semibold text-offer-card-sub sm:text-base">De <span className="line-through">R$ 545</span> por</span>
                 <span className="rounded-full bg-offer-card-pill-bg px-3 py-1 text-[11px] font-extrabold uppercase tracking-[0.08em] text-offer-card-pill-ink">55% de desconto</span>
               </div>
               <p className="whitespace-nowrap font-display text-[42px] font-extrabold leading-none tracking-[-0.03em] text-offer-card-price [text-shadow:0_2px_18px_rgb(0_0_0/22%)] sm:text-[58px]">
@@ -918,18 +918,18 @@ function SocialProof() {
   return (
     <section className="overflow-hidden bg-proof-bg" aria-label="Prova social">
       <div className="mx-auto w-full max-w-[1180px] px-6 py-16 md:py-[90px]">
-          <div className="mx-auto text-center">
-            <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-3">
-              <p className="text-[64px] font-semibold leading-none md:text-[76px]" aria-label="Google">
-                <span className="text-google-blue">G</span><span className="text-google-red">o</span><span className="text-google-yellow">o</span><span className="text-google-blue">g</span><span className="text-google-green">l</span><span className="text-google-red">e</span>
-              </p>
-              <p className="text-[72px] font-extrabold leading-none tracking-tight text-proof-title md:text-[86px]">4,9</p>
-            </div>
-            <div className="mt-4 flex items-center justify-center gap-3">
-              <p className="text-[26px] font-bold leading-none text-proof-title">Reviews</p>
-              <ProofStars className="h-7 w-7" />
-            </div>
+        <div className="mx-auto text-center">
+          <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-3">
+            <p className="text-[64px] font-semibold leading-none md:text-[76px]" aria-label="Google">
+              <span className="text-google-blue">G</span><span className="text-google-red">o</span><span className="text-google-yellow">o</span><span className="text-google-blue">g</span><span className="text-google-green">l</span><span className="text-google-red">e</span>
+            </p>
+            <p className="text-[72px] font-extrabold leading-none tracking-tight text-proof-title md:text-[86px]">4,9</p>
           </div>
+          <div className="mt-4 flex items-center justify-center gap-3">
+            <p className="text-[26px] font-bold leading-none text-proof-title">Reviews</p>
+            <ProofStars className="h-7 w-7" />
+          </div>
+        </div>
 
         <div className="proof-fade-bottom mx-auto mt-[50px] grid h-[600px] max-w-[1060px] gap-[16px] sm:grid-cols-2 lg:h-[560px] lg:grid-cols-3">
           <ProofColumn cards={[...colA, ...colC]} variant="up" className="sm:hidden" />
@@ -944,7 +944,7 @@ function SocialProof() {
 
 function Faq() {
   const faqs = [
-{ question: "Quantos números de WhatsApp posso conectar?", answer: "O plano de R$ 245 inclui 1 número de WhatsApp por 12 meses. Se precisar, você pode adicionar números extras por R$ 9,90/mês cada." },
+    { question: "Quantos números de WhatsApp posso conectar?", answer: "O plano de R$ 245 inclui 1 número de WhatsApp por 12 meses. Se precisar, você pode adicionar números extras por R$ 9,90/mês cada." },
     { question: "O acesso de R$ 245 vale por quanto tempo?", answer: "O acesso é válido por 12 meses, com todos os recursos contratados e atualizações liberadas durante esse período." },
     { question: "Existe garantia?", answer: "Sim. Você tem 7 dias de garantia após a compra. Se dentro desse período você achar que a Vupia não é para você, basta entrar em contato com o nosso suporte via WhatsApp para solicitar o reembolso." },
     { question: "Todos os recursos estão incluídos?", answer: "Sim. Você terá acesso aos recursos disponíveis no plano, além das atualizações e melhorias lançadas durante os 12 meses de acesso." },
